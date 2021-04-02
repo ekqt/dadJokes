@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    cursor: crosshair;
+  }
+  
+  div {
+    font-family: 'Merriweather Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+  }
+  
+  #dadJoke {
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 2rem 4rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+  
+  #anotherOne {
+    border-radius: 4rem;
+    margin: 1rem 0;
+    padding: 1.25rem 2rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+  }
+  
+  #anotherOne:hover {
+    background-color: black;
+    color: white;
+  }
