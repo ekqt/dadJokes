@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get a Dad Joke!</title>
     <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="icon" href="./laugh.svg" type="image/svg" sizes="16x16">
+    <script src="https://kit.fontawesome.com/7cf8f42eb1.js" crossorigin="anonymous"></script>
 
-    <div>
-        <h1>Get a Dad Joke!</h1>
-        <p id=dadJoke></p>
-        <p id=anotherOne>...and another one!</p>
-      </div>
-    
-      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Primary Meta Tags -->
+<title>Get a Dad Joke!</title>
+<meta name="title" content="Get a Dad Joke!">
+<meta name="description" content="Have good ol' fun with the largest selection of dad jokes on the internet. Powered by icanhazdadjoke.com">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://getadadjoke.vercel.app/">
+<meta property="og:title" content="Get a Dad Joke!">
+<meta property="og:description" content="Have good ol' fun with the largest selection of dad jokes on the internet. Powered by icanhazdadjoke.com">
+<meta property="og:image" content="./welcome.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://getadadjoke.vercel.app/">
+<meta property="twitter:title" content="Get a Dad Joke!">
+<meta property="twitter:description" content="Have good ol' fun with the largest selection of dad jokes on the internet. Powered by icanhazdadjoke.com">
+<meta property="twitter:image" content="./welcome.png">
+
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Get a Dad Joke!</h1>
+            <p id=dadJoke>Hello there! Click 'Gimme a joke' to get a randomized dad joke and 'Copy to clipboard' cause sharin' is carin'!</p>
+            <div>
+                <p id=anotherOne class="button"><i class="far fa-laugh-squint icon"></i> Gimme a joke!<span class="span"></span></p>
+                <p id=copyJoke class="button"><i class="far fa-copy icon"></i> Copy to clipboard!<span class="span"></span></p>
+            </div>
+        </section>
+        <footer>
+            <p>Hello from Brno! <br> <b>Get a Dad Joke!</b> is a personal mini project created by <a href="https://codepen.io/ekqt">Héctor Sosa</a>.</p>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./script.js"></script>
 </body>
+
 </html>
